@@ -6,10 +6,10 @@ Reboots PC / Mining rig when ping fails using relays.
 
 ## Getting Started
 
-1 Add your IP addresses of mining rigs to the collection.
-2 Add corresponding GPIO pin
-3 Deploy to Rpi
-4 Set as startup app
+1. Add your IP addresses of mining rigs to the collection.
+2. Add corresponding GPIO pin
+3. Deploy to Rpi
+4. Set as startup app
 
 ```
 MiningRigs.Add(new MiningRigs("192.168.0.24", 12));
